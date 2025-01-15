@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 public class Main extends JFrame {
     public Main() {
         // Set up the main frame (aka Homepage)
-        setTitle("PLUSH SHOP HOMEPAGE");
+        setTitle("☆☆☆☆☆ PLUSH SHOP HOMEPAGE ☆☆☆☆☆");
         setSize(800, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
@@ -17,11 +17,11 @@ public class Main extends JFrame {
 
         // Add title and description
         JLabel titleLabel = new JLabel("PLUSH", JLabel.CENTER);
-        titleLabel.setFont(new Font("Arial", Font.BOLD, 36));
+        titleLabel.setFont(new Font("Comic Sans", Font.BOLD, 36));
         leftPanel.add(titleLabel, BorderLayout.NORTH);
 
         JLabel descriptionLabel = new JLabel("GET YOUR PLUSH NOW", JLabel.CENTER);
-        descriptionLabel.setFont(new Font("Arial", Font.PLAIN, 16));
+        descriptionLabel.setFont(new Font("Comic Sans", Font.PLAIN, 16));
         leftPanel.add(descriptionLabel, BorderLayout.CENTER);
 
         // Add the button to open the "Donut Menu" pop-up
