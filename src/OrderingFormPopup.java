@@ -8,7 +8,7 @@ public class OrderingFormPopup {
 
     public void show() {
         // Create a JFrame for the popup window
-        frame = new JFrame("Create Your Special Taste!");
+        frame = new JFrame("☆☆☆☆☆");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(900, 500); // Larger window size
         frame.setLayout(new BorderLayout());
