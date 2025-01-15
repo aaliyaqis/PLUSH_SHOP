@@ -7,6 +7,9 @@ public class Main {
         OrderingFormPopup popup = new OrderingFormPopup();
         popup.show();
 
+        Homepage popup1 = new Homepage();
+        popup1.show();
+
 
 
     }
